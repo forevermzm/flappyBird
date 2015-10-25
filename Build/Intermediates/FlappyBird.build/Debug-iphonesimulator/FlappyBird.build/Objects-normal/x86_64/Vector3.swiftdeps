@@ -1,0 +1,79 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Vector3"
+- "=="
+provides-nominal:
+- "V10FlappyBird7Vector3"
+provides-member:
+- ["V10FlappyBird7Vector3", ""]
+- ["V10FlappyBird7Vector3", "equalToScalar"]
+- ["V10FlappyBird7Vector3", "length"]
+- ["V10FlappyBird7Vector3", "normalized"]
+- ["V10FlappyBird7Vector3", "normalize"]
+- ["V10FlappyBird7Vector3", "dotProduct"]
+- ["V10FlappyBird7Vector3", "crossProduct"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Equatable"
+- !private "/"
+- "Bool"
+- "=="
+- "Vector3"
+- !private "*="
+- "CGFloat"
+- !private "+"
+- !private "-"
+- !private "*"
+- !private "sqrt"
+- !private "FloatLiteralType"
+- !private "&&"
+depends-member:
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["VSC7CGPoint", "deinit"]
+- !private ["VSC8CGVector", "deinit"]
+- !private ["PSs9Equatable", "Vector3"]
+- !private ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "length"]
+- !private ["PSs9Equatable", "sqrt"]
+- !private ["PSs9Equatable", "x"]
+- !private ["PSs9Equatable", "y"]
+- !private ["PSs9Equatable", "z"]
+- ["PSs9Equatable", ""]
+- ["V10FlappyBird7Vector3", "Bool"]
+- ["V10FlappyBird7Vector3", "CGFloat"]
+- ["V10FlappyBird7Vector3", "Vector3"]
+- ["V10FlappyBird7Vector3", "crossProduct"]
+- ["V10FlappyBird7Vector3", "deinit"]
+- ["V10FlappyBird7Vector3", "dotProduct"]
+- ["V10FlappyBird7Vector3", "equalToScalar"]
+- ["V10FlappyBird7Vector3", "init"]
+- ["V10FlappyBird7Vector3", "length"]
+- ["V10FlappyBird7Vector3", "normalize"]
+- ["V10FlappyBird7Vector3", "normalized"]
+- !private ["V10FlappyBird7Vector3", "sqrt"]
+- ["V10FlappyBird7Vector3", "x"]
+- ["V10FlappyBird7Vector3", "y"]
+- ["V10FlappyBird7Vector3", "z"]
+depends-nominal:
+- !private "V12CoreGraphics7CGFloat"
+- !private "VSC7CGPoint"
+- !private "VSC8CGVector"
+- "PSs9Equatable"
+- "V10FlappyBird7Vector3"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+interface-hash: "b05cde8f9463833704c660833c82ba3e"

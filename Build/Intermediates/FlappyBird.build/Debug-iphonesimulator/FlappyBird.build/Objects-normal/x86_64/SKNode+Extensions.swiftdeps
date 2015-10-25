@@ -1,0 +1,370 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["CSo6SKNode", ""]
+- ["CSo6SKNode", "scaleAsPoint"]
+- ["CSo6SKNode", "afterDelay"]
+- ["CSo6SKNode", "bringToFront"]
+- ["CSo6SKNode", "rotateToVelocity"]
+provides-dynamic-lookup:
+- "bringToFront"
+- "afterDelay"
+- "scaleAsPoint"
+- "rotateToVelocity"
+depends-top-level:
+- !private "/"
+- !private "-="
+- !private "\u03C0"
+- "CGFloat"
+- !private "+="
+- "SKNode"
+- !private "*"
+- !private "Array"
+- !private "SKAction"
+- !private "atan2"
+- "CGVector"
+- "CGPoint"
+- "NSTimeInterval"
+- !private ">"
+- "dispatch_block_t"
+- !private "-"
+depends-member:
+- !private ["PSs16AbsoluteValuable", "IntegerLiteralType"]
+- !private ["PSs16AbsoluteValuable", "Stride"]
+- !private ["PSs9AnyObject", "CGPoint"]
+- !private ["PSs9AnyObject", "SKAction"]
+- !private ["PSs9AnyObject", "addChild"]
+- ["PSs9AnyObject", "afterDelay"]
+- !private ["PSs9AnyObject", "atan2"]
+- ["PSs9AnyObject", "bringToFront"]
+- !private ["PSs9AnyObject", "parent"]
+- !private ["PSs9AnyObject", "removeFromParent"]
+- ["PSs9AnyObject", "rotateToVelocity"]
+- !private ["PSs9AnyObject", "runAction"]
+- !private ["PSs9AnyObject", "runBlock"]
+- ["PSs9AnyObject", "scaleAsPoint"]
+- !private ["PSs9AnyObject", "sequence"]
+- !private ["PSs9AnyObject", "waitForDuration"]
+- !private ["PSs9AnyObject", "xScale"]
+- !private ["PSs9AnyObject", "yScale"]
+- !private ["PSs9AnyObject", "zRotation"]
+- !private ["PSs9AnyObject", "\u03C0"]
+- !private ["Sa", "Element"]
+- !private ["PSs23ArrayLiteralConvertible", "Element"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "IntegerLiteralType"]
+- !private ["V12CoreGraphics7CGFloat", "Stride"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["VSC7CGPoint", "init"]
+- !private ["VSC7CGPoint", "x"]
+- !private ["VSC7CGPoint", "y"]
+- !private ["VSC8CGVector", "dx"]
+- !private ["VSC8CGVector", "dy"]
+- !private ["PSs11CVarArgType", "CGPoint"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "SKAction"]
+- !private ["PSs11CVarArgType", "Stride"]
+- !private ["PSs11CVarArgType", "addChild"]
+- ["PSs11CVarArgType", "afterDelay"]
+- !private ["PSs11CVarArgType", "atan2"]
+- ["PSs11CVarArgType", "bringToFront"]
+- !private ["PSs11CVarArgType", "parent"]
+- !private ["PSs11CVarArgType", "removeFromParent"]
+- ["PSs11CVarArgType", "rotateToVelocity"]
+- !private ["PSs11CVarArgType", "runAction"]
+- !private ["PSs11CVarArgType", "runBlock"]
+- ["PSs11CVarArgType", "scaleAsPoint"]
+- !private ["PSs11CVarArgType", "sequence"]
+- !private ["PSs11CVarArgType", "waitForDuration"]
+- !private ["PSs11CVarArgType", "xScale"]
+- !private ["PSs11CVarArgType", "yScale"]
+- !private ["PSs11CVarArgType", "zRotation"]
+- !private ["PSs11CVarArgType", "\u03C0"]
+- !private ["PSs14CollectionType", "Element"]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["PSs10Comparable", "Stride"]
+- !private ["PSs28CustomDebugStringConvertible", "Element"]
+- ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs23CustomStringConvertible", "CGPoint"]
+- !private ["PSs23CustomStringConvertible", "Element"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "SKAction"]
+- !private ["PSs23CustomStringConvertible", "Stride"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "addChild"]
+- ["PSs23CustomStringConvertible", "afterDelay"]
+- !private ["PSs23CustomStringConvertible", "atan2"]
+- ["PSs23CustomStringConvertible", "bringToFront"]
+- !private ["PSs23CustomStringConvertible", "parent"]
+- !private ["PSs23CustomStringConvertible", "removeFromParent"]
+- ["PSs23CustomStringConvertible", "rotateToVelocity"]
+- !private ["PSs23CustomStringConvertible", "runAction"]
+- !private ["PSs23CustomStringConvertible", "runBlock"]
+- ["PSs23CustomStringConvertible", "scaleAsPoint"]
+- !private ["PSs23CustomStringConvertible", "sequence"]
+- !private ["PSs23CustomStringConvertible", "waitForDuration"]
+- !private ["PSs23CustomStringConvertible", "xScale"]
+- !private ["PSs23CustomStringConvertible", "yScale"]
+- !private ["PSs23CustomStringConvertible", "zRotation"]
+- !private ["PSs23CustomStringConvertible", "\u03C0"]
+- !private ["PSs9Equatable", "CGPoint"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- !private ["PSs9Equatable", "SKAction"]
+- !private ["PSs9Equatable", "Stride"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "addChild"]
+- ["PSs9Equatable", "afterDelay"]
+- !private ["PSs9Equatable", "atan2"]
+- ["PSs9Equatable", "bringToFront"]
+- !private ["PSs9Equatable", "dx"]
+- !private ["PSs9Equatable", "dy"]
+- !private ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "parent"]
+- !private ["PSs9Equatable", "removeFromParent"]
+- ["PSs9Equatable", "rotateToVelocity"]
+- !private ["PSs9Equatable", "runAction"]
+- !private ["PSs9Equatable", "runBlock"]
+- ["PSs9Equatable", "scaleAsPoint"]
+- !private ["PSs9Equatable", "sequence"]
+- !private ["PSs9Equatable", "waitForDuration"]
+- !private ["PSs9Equatable", "x"]
+- !private ["PSs9Equatable", "xScale"]
+- !private ["PSs9Equatable", "y"]
+- !private ["PSs9Equatable", "yScale"]
+- !private ["PSs9Equatable", "zRotation"]
+- !private ["PSs9Equatable", "\u03C0"]
+- !private ["PSs23FloatLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs23FloatLiteralConvertible", "Stride"]
+- !private ["PSs17FloatingPointType", "IntegerLiteralType"]
+- !private ["PSs17FloatingPointType", "Stride"]
+- !private ["PSs8Hashable", "CGPoint"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "SKAction"]
+- !private ["PSs8Hashable", "Stride"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "addChild"]
+- ["PSs8Hashable", "afterDelay"]
+- !private ["PSs8Hashable", "atan2"]
+- ["PSs8Hashable", "bringToFront"]
+- !private ["PSs8Hashable", "parent"]
+- !private ["PSs8Hashable", "removeFromParent"]
+- ["PSs8Hashable", "rotateToVelocity"]
+- !private ["PSs8Hashable", "runAction"]
+- !private ["PSs8Hashable", "runBlock"]
+- ["PSs8Hashable", "scaleAsPoint"]
+- !private ["PSs8Hashable", "sequence"]
+- !private ["PSs8Hashable", "waitForDuration"]
+- !private ["PSs8Hashable", "xScale"]
+- !private ["PSs8Hashable", "yScale"]
+- !private ["PSs8Hashable", "zRotation"]
+- !private ["PSs8Hashable", "\u03C0"]
+- !private ["PSs9Indexable", "Element"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "Stride"]
+- !private ["PSs21MutableCollectionType", "Element"]
+- !private ["PSs16MutableIndexable", "Element"]
+- !private ["PSs16MutableSliceable", "Element"]
+- !private ["PSo8NSCoding", "CGPoint"]
+- !private ["PSo8NSCoding", "SKAction"]
+- !private ["PSo8NSCoding", "addChild"]
+- !private ["PSo8NSCoding", "atan2"]
+- !private ["PSo8NSCoding", "parent"]
+- !private ["PSo8NSCoding", "removeFromParent"]
+- !private ["PSo8NSCoding", "runAction"]
+- !private ["PSo8NSCoding", "runBlock"]
+- !private ["PSo8NSCoding", "sequence"]
+- !private ["PSo8NSCoding", "waitForDuration"]
+- !private ["PSo8NSCoding", "xScale"]
+- !private ["PSo8NSCoding", "yScale"]
+- !private ["PSo8NSCoding", "zRotation"]
+- !private ["PSo8NSCoding", "\u03C0"]
+- !private ["PSo9NSCopying", "CGPoint"]
+- !private ["PSo9NSCopying", "SKAction"]
+- !private ["PSo9NSCopying", "addChild"]
+- !private ["PSo9NSCopying", "atan2"]
+- !private ["PSo9NSCopying", "parent"]
+- !private ["PSo9NSCopying", "removeFromParent"]
+- !private ["PSo9NSCopying", "runAction"]
+- !private ["PSo9NSCopying", "runBlock"]
+- !private ["PSo9NSCopying", "sequence"]
+- !private ["PSo9NSCopying", "waitForDuration"]
+- !private ["PSo9NSCopying", "xScale"]
+- !private ["PSo9NSCopying", "yScale"]
+- !private ["PSo9NSCopying", "zRotation"]
+- !private ["PSo9NSCopying", "\u03C0"]
+- ["CSo8NSObject", "CGFloat"]
+- ["CSo8NSObject", "CGPoint"]
+- ["CSo8NSObject", "CGVector"]
+- ["CSo8NSObject", "NSTimeInterval"]
+- !private ["CSo8NSObject", "SKAction"]
+- !private ["CSo8NSObject", "addChild"]
+- ["CSo8NSObject", "afterDelay"]
+- !private ["CSo8NSObject", "atan2"]
+- ["CSo8NSObject", "bringToFront"]
+- ["CSo8NSObject", "dispatch_block_t"]
+- !private ["CSo8NSObject", "parent"]
+- !private ["CSo8NSObject", "removeFromParent"]
+- ["CSo8NSObject", "rotateToVelocity"]
+- !private ["CSo8NSObject", "runAction"]
+- !private ["CSo8NSObject", "runBlock"]
+- ["CSo8NSObject", "scaleAsPoint"]
+- !private ["CSo8NSObject", "sequence"]
+- !private ["CSo8NSObject", "waitForDuration"]
+- !private ["CSo8NSObject", "xScale"]
+- !private ["CSo8NSObject", "yScale"]
+- !private ["CSo8NSObject", "zRotation"]
+- !private ["CSo8NSObject", "\u03C0"]
+- !private ["PSo16NSObjectProtocol", "CGPoint"]
+- !private ["PSo16NSObjectProtocol", "SKAction"]
+- !private ["PSo16NSObjectProtocol", "addChild"]
+- ["PSo16NSObjectProtocol", "afterDelay"]
+- !private ["PSo16NSObjectProtocol", "atan2"]
+- ["PSo16NSObjectProtocol", "bringToFront"]
+- !private ["PSo16NSObjectProtocol", "parent"]
+- !private ["PSo16NSObjectProtocol", "removeFromParent"]
+- ["PSo16NSObjectProtocol", "rotateToVelocity"]
+- !private ["PSo16NSObjectProtocol", "runAction"]
+- !private ["PSo16NSObjectProtocol", "runBlock"]
+- ["PSo16NSObjectProtocol", "scaleAsPoint"]
+- !private ["PSo16NSObjectProtocol", "sequence"]
+- !private ["PSo16NSObjectProtocol", "waitForDuration"]
+- !private ["PSo16NSObjectProtocol", "xScale"]
+- !private ["PSo16NSObjectProtocol", "yScale"]
+- !private ["PSo16NSObjectProtocol", "zRotation"]
+- !private ["PSo16NSObjectProtocol", "\u03C0"]
+- ["PSs21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["PSs30RangeReplaceableCollectionType", "Element"]
+- !private ["CSo8SKAction", "runBlock"]
+- !private ["CSo8SKAction", "sequence"]
+- !private ["CSo8SKAction", "waitForDuration"]
+- ["CSo6SKNode", "CGFloat"]
+- ["CSo6SKNode", "CGPoint"]
+- ["CSo6SKNode", "CGVector"]
+- ["CSo6SKNode", "NSTimeInterval"]
+- !private ["CSo6SKNode", "SKAction"]
+- !private ["CSo6SKNode", "addChild"]
+- ["CSo6SKNode", "afterDelay"]
+- !private ["CSo6SKNode", "atan2"]
+- ["CSo6SKNode", "bringToFront"]
+- ["CSo6SKNode", "dispatch_block_t"]
+- !private ["CSo6SKNode", "parent"]
+- !private ["CSo6SKNode", "removeFromParent"]
+- ["CSo6SKNode", "rotateToVelocity"]
+- !private ["CSo6SKNode", "runAction"]
+- ["CSo6SKNode", "scaleAsPoint"]
+- !private ["CSo6SKNode", "xScale"]
+- !private ["CSo6SKNode", "yScale"]
+- !private ["CSo6SKNode", "zRotation"]
+- !private ["CSo6SKNode", "\u03C0"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "Stride"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["PSs10Strideable", "Stride"]
+- ["CSo11UIResponder", "CGFloat"]
+- ["CSo11UIResponder", "CGPoint"]
+- ["CSo11UIResponder", "CGVector"]
+- ["CSo11UIResponder", "NSTimeInterval"]
+- !private ["CSo11UIResponder", "SKAction"]
+- !private ["CSo11UIResponder", "addChild"]
+- ["CSo11UIResponder", "afterDelay"]
+- !private ["CSo11UIResponder", "atan2"]
+- ["CSo11UIResponder", "bringToFront"]
+- ["CSo11UIResponder", "dispatch_block_t"]
+- !private ["CSo11UIResponder", "parent"]
+- !private ["CSo11UIResponder", "removeFromParent"]
+- ["CSo11UIResponder", "rotateToVelocity"]
+- !private ["CSo11UIResponder", "runAction"]
+- ["CSo11UIResponder", "scaleAsPoint"]
+- !private ["CSo11UIResponder", "xScale"]
+- !private ["CSo11UIResponder", "yScale"]
+- !private ["CSo11UIResponder", "zRotation"]
+- !private ["CSo11UIResponder", "\u03C0"]
+- !private ["PSs10_ArrayType", "Element"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs19_CVarArgAlignedType", "IntegerLiteralType"]
+- !private ["PSs19_CVarArgAlignedType", "Stride"]
+- !private ["PSs22_CVarArgPassedAsDouble", "IntegerLiteralType"]
+- !private ["PSs22_CVarArgPassedAsDouble", "Stride"]
+- !private ["PSs24_DestructorSafeContainer", "Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "Stride"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "Element"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- ["PSs12_Reflectable", "Some"]
+- !private ["PSs12_Reflectable", "Stride"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "x"]
+- !private ["PSs12_Reflectable", "y"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "Stride"]
+depends-nominal:
+- !private "PSs16AbsoluteValuable"
+- "PSs9AnyObject"
+- !private "Sa"
+- !private "PSs23ArrayLiteralConvertible"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- !private "V12CoreGraphics7CGFloat"
+- !private "VSC7CGPoint"
+- !private "VSC8CGVector"
+- "PSs11CVarArgType"
+- !private "PSs14CollectionType"
+- !private "PSs10Comparable"
+- "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- !private "PSs23FloatLiteralConvertible"
+- !private "PSs17FloatingPointType"
+- "PSs8Hashable"
+- !private "PSs9Indexable"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs21MutableCollectionType"
+- !private "PSs16MutableIndexable"
+- !private "PSs16MutableSliceable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSs21NilLiteralConvertible"
+- "Sq"
+- !private "PSs30RangeReplaceableCollectionType"
+- !private "CSo8SKAction"
+- "CSo6SKNode"
+- !private "PSs12SequenceType"
+- !private "PSs16SignedNumberType"
+- !private "PSs10Strideable"
+- "CSo11UIResponder"
+- !private "PSs10_ArrayType"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs19_CVarArgAlignedType"
+- !private "PSs22_CVarArgPassedAsDouble"
+- !private "PSs24_DestructorSafeContainer"
+- !private "PSs21_ObjectiveCBridgeable"
+- "PSs12_Reflectable"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+interface-hash: "4d12209d196bdd4e8c46cc6b9b12e9db"

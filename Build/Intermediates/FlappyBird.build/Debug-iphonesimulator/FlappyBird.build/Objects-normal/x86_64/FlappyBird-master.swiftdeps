@@ -1,0 +1,19 @@
+version: "Apple Swift version 2.1 (swiftlang-700.1.101.6 clang-700.1.76)"
+options: "85e313ccb66949ccf570f1dac18bce39"
+build_time: [499114295, 352022000]
+inputs:
+  "/Users/mizhemin/Code/Others/FlappyBird/mizhemin-Flappy-Bird/FlappyBird-Start/FlappyBird/Resources/SKTUtils/SKAction+Extensions.swift": [498894767, 0]
+  "/Users/mizhemin/Code/Others/FlappyBird/mizhemin-Flappy-Bird/FlappyBird-Start/FlappyBird/Resources/SKTUtils/CGFloat+Extensions.swift": [498894767, 0]
+  "/Users/mizhemin/Code/Others/FlappyBird/mizhemin-Flappy-Bird/FlappyBird-Start/FlappyBird/GameScene.swift": [499114289, 0]
+  "/Users/mizhemin/Code/Others/FlappyBird/mizhemin-Flappy-Bird/FlappyBird-Start/FlappyBird/Resources/SKTUtils/CGVector+Extensions.swift": [498894767, 0]
+  "/Users/mizhemin/Code/Others/FlappyBird/mizhemin-Flappy-Bird/FlappyBird-Start/FlappyBird/Resources/SKTUtils/Vector3.swift": [498894767, 0]
+  "/Users/mizhemin/Code/Others/FlappyBird/mizhemin-Flappy-Bird/FlappyBird-Start/FlappyBird/Resources/SKTUtils/SKAction+SpecialEffects.swift": [498894767, 0]
+  "/Users/mizhemin/Code/Others/FlappyBird/mizhemin-Flappy-Bird/FlappyBird-Start/FlappyBird/AppDelegate.swift": [498894767, 0]
+  "/Users/mizhemin/Code/Others/FlappyBird/mizhemin-Flappy-Bird/FlappyBird-Start/FlappyBird/Resources/SKTUtils/SKTTimingFunctions.swift": [498894767, 0]
+  "/Users/mizhemin/Code/Others/FlappyBird/mizhemin-Flappy-Bird/FlappyBird-Start/FlappyBird/GameViewController.swift": [499078914, 0]
+  "/Users/mizhemin/Code/Others/FlappyBird/mizhemin-Flappy-Bird/FlappyBird-Start/FlappyBird/Resources/SKTUtils/SKColor+Extensions.swift": [498894767, 0]
+  "/Users/mizhemin/Code/Others/FlappyBird/mizhemin-Flappy-Bird/FlappyBird-Start/FlappyBird/Resources/SKTUtils/CGPoint+Extensions.swift": [498894767, 0]
+  "/Users/mizhemin/Code/Others/FlappyBird/mizhemin-Flappy-Bird/FlappyBird-Start/FlappyBird/Resources/SKTUtils/SKTAudio.swift": [498894767, 0]
+  "/Users/mizhemin/Code/Others/FlappyBird/mizhemin-Flappy-Bird/FlappyBird-Start/FlappyBird/Resources/SKTUtils/SKTEffects.swift": [498894767, 0]
+  "/Users/mizhemin/Code/Others/FlappyBird/mizhemin-Flappy-Bird/FlappyBird-Start/FlappyBird/Resources/SKTUtils/SKNode+Extensions.swift": [498894767, 0]
+  "/Users/mizhemin/Code/Others/FlappyBird/mizhemin-Flappy-Bird/FlappyBird-Start/FlappyBird/Resources/SKTUtils/Int+Extensions.swift": [498894767, 0]

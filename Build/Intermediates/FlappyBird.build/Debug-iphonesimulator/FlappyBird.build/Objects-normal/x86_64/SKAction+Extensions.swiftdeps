@@ -1,0 +1,243 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["CSo8SKAction", ""]
+- ["CSo8SKAction", "afterDelay"]
+- ["CSo8SKAction", "afterDelay"]
+- ["CSo8SKAction", "removeFromParentAfterDelay"]
+- ["CSo8SKAction", "jumpToHeight"]
+provides-dynamic-lookup:
+- "removeFromParentAfterDelay"
+- "afterDelay"
+- "afterDelay"
+- "jumpToHeight"
+depends-top-level:
+- "SKAction"
+- !private "-"
+- "CGFloat"
+- "CGPoint"
+- "NSTimeInterval"
+- !private "+"
+- !private "Array"
+- !private "/"
+- !private "*"
+- "dispatch_block_t"
+depends-member:
+- !private ["PSs16AbsoluteValuable", "init"]
+- !private ["PSs9AnyObject", "CGFloat"]
+- !private ["PSs9AnyObject", "CGPoint"]
+- !private ["PSs9AnyObject", "SKAction"]
+- ["PSs9AnyObject", "afterDelay"]
+- !private ["PSs9AnyObject", "customActionWithDuration"]
+- ["PSs9AnyObject", "jumpToHeight"]
+- !private ["PSs9AnyObject", "position"]
+- !private ["PSs9AnyObject", "removeFromParent"]
+- ["PSs9AnyObject", "removeFromParentAfterDelay"]
+- !private ["PSs9AnyObject", "runBlock"]
+- !private ["PSs9AnyObject", "sequence"]
+- !private ["PSs9AnyObject", "waitForDuration"]
+- !private ["Sa", "Element"]
+- !private ["PSs23ArrayLiteralConvertible", "Element"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["V12CoreGraphics7CGFloat", "init"]
+- !private ["VSC7CGPoint", "init"]
+- !private ["VSC7CGPoint", "x"]
+- !private ["VSC7CGPoint", "y"]
+- !private ["PSs11CVarArgType", "CGFloat"]
+- !private ["PSs11CVarArgType", "CGPoint"]
+- !private ["PSs11CVarArgType", "SKAction"]
+- ["PSs11CVarArgType", "afterDelay"]
+- !private ["PSs11CVarArgType", "customActionWithDuration"]
+- !private ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "jumpToHeight"]
+- !private ["PSs11CVarArgType", "position"]
+- !private ["PSs11CVarArgType", "removeFromParent"]
+- ["PSs11CVarArgType", "removeFromParentAfterDelay"]
+- !private ["PSs11CVarArgType", "runBlock"]
+- !private ["PSs11CVarArgType", "sequence"]
+- !private ["PSs11CVarArgType", "waitForDuration"]
+- !private ["PSs14CollectionType", "Element"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "Element"]
+- !private ["PSs23CustomStringConvertible", "CGFloat"]
+- !private ["PSs23CustomStringConvertible", "CGPoint"]
+- !private ["PSs23CustomStringConvertible", "Element"]
+- !private ["PSs23CustomStringConvertible", "SKAction"]
+- ["PSs23CustomStringConvertible", "afterDelay"]
+- !private ["PSs23CustomStringConvertible", "customActionWithDuration"]
+- !private ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "jumpToHeight"]
+- !private ["PSs23CustomStringConvertible", "position"]
+- !private ["PSs23CustomStringConvertible", "removeFromParent"]
+- ["PSs23CustomStringConvertible", "removeFromParentAfterDelay"]
+- !private ["PSs23CustomStringConvertible", "runBlock"]
+- !private ["PSs23CustomStringConvertible", "sequence"]
+- !private ["PSs23CustomStringConvertible", "waitForDuration"]
+- !private ["PSs9Equatable", "CGFloat"]
+- !private ["PSs9Equatable", "CGPoint"]
+- !private ["PSs9Equatable", "SKAction"]
+- ["PSs9Equatable", "afterDelay"]
+- !private ["PSs9Equatable", "customActionWithDuration"]
+- !private ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "jumpToHeight"]
+- !private ["PSs9Equatable", "position"]
+- !private ["PSs9Equatable", "removeFromParent"]
+- ["PSs9Equatable", "removeFromParentAfterDelay"]
+- !private ["PSs9Equatable", "runBlock"]
+- !private ["PSs9Equatable", "sequence"]
+- !private ["PSs9Equatable", "waitForDuration"]
+- !private ["PSs9Equatable", "x"]
+- !private ["PSs9Equatable", "y"]
+- !private ["PSs23FloatLiteralConvertible", "init"]
+- !private ["PSs17FloatingPointType", "init"]
+- !private ["PSs8Hashable", "CGFloat"]
+- !private ["PSs8Hashable", "CGPoint"]
+- !private ["PSs8Hashable", "SKAction"]
+- ["PSs8Hashable", "afterDelay"]
+- !private ["PSs8Hashable", "customActionWithDuration"]
+- !private ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "jumpToHeight"]
+- !private ["PSs8Hashable", "position"]
+- !private ["PSs8Hashable", "removeFromParent"]
+- ["PSs8Hashable", "removeFromParentAfterDelay"]
+- !private ["PSs8Hashable", "runBlock"]
+- !private ["PSs8Hashable", "sequence"]
+- !private ["PSs8Hashable", "waitForDuration"]
+- !private ["PSs9Indexable", "Element"]
+- !private ["PSs25IntegerLiteralConvertible", "init"]
+- !private ["PSs21MutableCollectionType", "Element"]
+- !private ["PSs16MutableIndexable", "Element"]
+- !private ["PSs16MutableSliceable", "Element"]
+- !private ["PSo8NSCoding", "CGFloat"]
+- !private ["PSo8NSCoding", "CGPoint"]
+- !private ["PSo8NSCoding", "SKAction"]
+- !private ["PSo8NSCoding", "afterDelay"]
+- !private ["PSo8NSCoding", "customActionWithDuration"]
+- !private ["PSo8NSCoding", "position"]
+- !private ["PSo8NSCoding", "removeFromParent"]
+- !private ["PSo8NSCoding", "runBlock"]
+- !private ["PSo8NSCoding", "sequence"]
+- !private ["PSo8NSCoding", "waitForDuration"]
+- !private ["PSo9NSCopying", "CGFloat"]
+- !private ["PSo9NSCopying", "CGPoint"]
+- !private ["PSo9NSCopying", "SKAction"]
+- !private ["PSo9NSCopying", "afterDelay"]
+- !private ["PSo9NSCopying", "customActionWithDuration"]
+- !private ["PSo9NSCopying", "position"]
+- !private ["PSo9NSCopying", "removeFromParent"]
+- !private ["PSo9NSCopying", "runBlock"]
+- !private ["PSo9NSCopying", "sequence"]
+- !private ["PSo9NSCopying", "waitForDuration"]
+- ["CSo8NSObject", "CGFloat"]
+- ["CSo8NSObject", "CGPoint"]
+- ["CSo8NSObject", "NSTimeInterval"]
+- ["CSo8NSObject", "SKAction"]
+- ["CSo8NSObject", "afterDelay"]
+- !private ["CSo8NSObject", "customActionWithDuration"]
+- ["CSo8NSObject", "dispatch_block_t"]
+- ["CSo8NSObject", "jumpToHeight"]
+- !private ["CSo8NSObject", "position"]
+- !private ["CSo8NSObject", "removeFromParent"]
+- ["CSo8NSObject", "removeFromParentAfterDelay"]
+- !private ["CSo8NSObject", "runBlock"]
+- !private ["CSo8NSObject", "sequence"]
+- !private ["CSo8NSObject", "waitForDuration"]
+- !private ["PSo16NSObjectProtocol", "CGFloat"]
+- !private ["PSo16NSObjectProtocol", "CGPoint"]
+- !private ["PSo16NSObjectProtocol", "SKAction"]
+- ["PSo16NSObjectProtocol", "afterDelay"]
+- !private ["PSo16NSObjectProtocol", "customActionWithDuration"]
+- ["PSo16NSObjectProtocol", "jumpToHeight"]
+- !private ["PSo16NSObjectProtocol", "position"]
+- !private ["PSo16NSObjectProtocol", "removeFromParent"]
+- ["PSo16NSObjectProtocol", "removeFromParentAfterDelay"]
+- !private ["PSo16NSObjectProtocol", "runBlock"]
+- !private ["PSo16NSObjectProtocol", "sequence"]
+- !private ["PSo16NSObjectProtocol", "waitForDuration"]
+- !private ["PSs30RangeReplaceableCollectionType", "Element"]
+- ["CSo8SKAction", "CGFloat"]
+- ["CSo8SKAction", "CGPoint"]
+- ["CSo8SKAction", "NSTimeInterval"]
+- ["CSo8SKAction", "SKAction"]
+- ["CSo8SKAction", "afterDelay"]
+- !private ["CSo8SKAction", "customActionWithDuration"]
+- ["CSo8SKAction", "dispatch_block_t"]
+- ["CSo8SKAction", "jumpToHeight"]
+- !private ["CSo8SKAction", "removeFromParent"]
+- ["CSo8SKAction", "removeFromParentAfterDelay"]
+- !private ["CSo8SKAction", "runBlock"]
+- !private ["CSo8SKAction", "sequence"]
+- !private ["CSo8SKAction", "waitForDuration"]
+- !private ["CSo6SKNode", "position"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSs16SignedNumberType", "init"]
+- !private ["PSs10Strideable", "init"]
+- !private ["CSo11UIResponder", "position"]
+- !private ["PSs10_ArrayType", "Element"]
+- !private ["PSs19_CVarArgAlignedType", "init"]
+- !private ["PSs22_CVarArgPassedAsDouble", "init"]
+- !private ["PSs24_DestructorSafeContainer", "Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs12_Reflectable", "Element"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "x"]
+- !private ["PSs12_Reflectable", "y"]
+- !private ["PSs11_Strideable", "init"]
+depends-nominal:
+- !private "PSs16AbsoluteValuable"
+- "PSs9AnyObject"
+- !private "Sa"
+- !private "PSs23ArrayLiteralConvertible"
+- !private "V12CoreGraphics7CGFloat"
+- !private "VSC7CGPoint"
+- "PSs11CVarArgType"
+- !private "PSs14CollectionType"
+- !private "PSs10Comparable"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- !private "PSs23FloatLiteralConvertible"
+- !private "PSs17FloatingPointType"
+- "PSs8Hashable"
+- !private "PSs9Indexable"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs21MutableCollectionType"
+- !private "PSs16MutableIndexable"
+- !private "PSs16MutableSliceable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSs30RangeReplaceableCollectionType"
+- "CSo8SKAction"
+- !private "CSo6SKNode"
+- !private "PSs12SequenceType"
+- !private "PSs16SignedNumberType"
+- !private "PSs10Strideable"
+- !private "CSo11UIResponder"
+- !private "PSs10_ArrayType"
+- !private "PSs19_CVarArgAlignedType"
+- !private "PSs22_CVarArgPassedAsDouble"
+- !private "PSs24_DestructorSafeContainer"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs12_Reflectable"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+interface-hash: "8f3a11f21600ed6f1e279c1b884c982d"

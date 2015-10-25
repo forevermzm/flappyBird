@@ -1,0 +1,423 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["CSo8SKAction", ""]
+- ["CSo8SKAction", "screenShakeWithNode"]
+- ["CSo8SKAction", "screenRotateWithNode"]
+- ["CSo8SKAction", "screenZoomWithNode"]
+- ["CSo8SKAction", "colorGlitchWithScene"]
+provides-dynamic-lookup:
+- "screenShakeWithNode"
+- "screenRotateWithNode"
+- "screenZoomWithNode"
+- "colorGlitchWithScene"
+depends-top-level:
+- !private "SKTScaleEffect"
+- "CGFloat"
+- !private "SKTRotateEffect"
+- "SKAction"
+- !private "SKTMoveEffect"
+- "Int"
+- !private "SKTCreateShakeFunction"
+- !private "SKColorWithRGB"
+- !private "+"
+- "SKScene"
+- !private "*"
+- "CGPoint"
+- !private "..."
+- "SKNode"
+- !private "<"
+- "SKColor"
+- "NSTimeInterval"
+depends-member:
+- !private ["PSs16AbsoluteValuable", "init"]
+- !private ["PSs9AnyObject", "CGFloat"]
+- !private ["PSs9AnyObject", "CGPoint"]
+- !private ["PSs9AnyObject", "Int"]
+- !private ["PSs9AnyObject", "SKAction"]
+- !private ["PSs9AnyObject", "SKColorWithRGB"]
+- !private ["PSs9AnyObject", "SKTCreateShakeFunction"]
+- !private ["PSs9AnyObject", "SKTMoveEffect"]
+- !private ["PSs9AnyObject", "SKTRotateEffect"]
+- !private ["PSs9AnyObject", "SKTScaleEffect"]
+- !private ["PSs9AnyObject", "actionWithEffect"]
+- !private ["PSs9AnyObject", "backgroundColor"]
+- ["PSs9AnyObject", "colorGlitchWithScene"]
+- !private ["PSs9AnyObject", "customActionWithDuration"]
+- !private ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "position"]
+- ["PSs9AnyObject", "screenRotateWithNode"]
+- ["PSs9AnyObject", "screenShakeWithNode"]
+- ["PSs9AnyObject", "screenZoomWithNode"]
+- !private ["PSs9AnyObject", "timingFunction"]
+- !private ["PSs9AnyObject", "xScale"]
+- !private ["PSs9AnyObject", "yScale"]
+- !private ["PSs9AnyObject", "zRotation"]
+- !private ["PSs22BidirectionalIndexType", "Distance"]
+- !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["PSs22BidirectionalIndexType", "random"]
+- !private ["PSs21BitwiseOperationsType", "Distance"]
+- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["PSs21BitwiseOperationsType", "random"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "init"]
+- !private ["VSC7CGPoint", "init"]
+- !private ["PSs11CVarArgType", "CGFloat"]
+- !private ["PSs11CVarArgType", "CGPoint"]
+- !private ["PSs11CVarArgType", "Distance"]
+- !private ["PSs11CVarArgType", "Int"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "SKAction"]
+- !private ["PSs11CVarArgType", "SKColorWithRGB"]
+- !private ["PSs11CVarArgType", "SKTCreateShakeFunction"]
+- !private ["PSs11CVarArgType", "SKTMoveEffect"]
+- !private ["PSs11CVarArgType", "SKTRotateEffect"]
+- !private ["PSs11CVarArgType", "SKTScaleEffect"]
+- !private ["PSs11CVarArgType", "actionWithEffect"]
+- !private ["PSs11CVarArgType", "backgroundColor"]
+- ["PSs11CVarArgType", "colorGlitchWithScene"]
+- !private ["PSs11CVarArgType", "customActionWithDuration"]
+- !private ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "position"]
+- !private ["PSs11CVarArgType", "random"]
+- ["PSs11CVarArgType", "screenRotateWithNode"]
+- ["PSs11CVarArgType", "screenShakeWithNode"]
+- ["PSs11CVarArgType", "screenZoomWithNode"]
+- !private ["PSs11CVarArgType", "xScale"]
+- !private ["PSs11CVarArgType", "yScale"]
+- !private ["PSs11CVarArgType", "zRotation"]
+- !private ["PSs10Comparable", "Distance"]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs10Comparable", "random"]
+- !private ["PSs23CustomStringConvertible", "CGFloat"]
+- !private ["PSs23CustomStringConvertible", "CGPoint"]
+- !private ["PSs23CustomStringConvertible", "Distance"]
+- !private ["PSs23CustomStringConvertible", "Int"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "SKAction"]
+- !private ["PSs23CustomStringConvertible", "SKColorWithRGB"]
+- !private ["PSs23CustomStringConvertible", "SKTCreateShakeFunction"]
+- !private ["PSs23CustomStringConvertible", "SKTMoveEffect"]
+- !private ["PSs23CustomStringConvertible", "SKTRotateEffect"]
+- !private ["PSs23CustomStringConvertible", "SKTScaleEffect"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "actionWithEffect"]
+- !private ["PSs23CustomStringConvertible", "backgroundColor"]
+- ["PSs23CustomStringConvertible", "colorGlitchWithScene"]
+- !private ["PSs23CustomStringConvertible", "customActionWithDuration"]
+- !private ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "position"]
+- !private ["PSs23CustomStringConvertible", "random"]
+- ["PSs23CustomStringConvertible", "screenRotateWithNode"]
+- ["PSs23CustomStringConvertible", "screenShakeWithNode"]
+- ["PSs23CustomStringConvertible", "screenZoomWithNode"]
+- !private ["PSs23CustomStringConvertible", "xScale"]
+- !private ["PSs23CustomStringConvertible", "yScale"]
+- !private ["PSs23CustomStringConvertible", "zRotation"]
+- !private ["PSs9Equatable", "CGFloat"]
+- !private ["PSs9Equatable", "CGPoint"]
+- !private ["PSs9Equatable", "Distance"]
+- !private ["PSs9Equatable", "Int"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- !private ["PSs9Equatable", "SKAction"]
+- !private ["PSs9Equatable", "SKColorWithRGB"]
+- !private ["PSs9Equatable", "SKTCreateShakeFunction"]
+- !private ["PSs9Equatable", "SKTMoveEffect"]
+- !private ["PSs9Equatable", "SKTRotateEffect"]
+- !private ["PSs9Equatable", "SKTScaleEffect"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "actionWithEffect"]
+- !private ["PSs9Equatable", "backgroundColor"]
+- ["PSs9Equatable", "colorGlitchWithScene"]
+- !private ["PSs9Equatable", "customActionWithDuration"]
+- !private ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "position"]
+- !private ["PSs9Equatable", "random"]
+- ["PSs9Equatable", "screenRotateWithNode"]
+- ["PSs9Equatable", "screenShakeWithNode"]
+- ["PSs9Equatable", "screenZoomWithNode"]
+- !private ["PSs9Equatable", "xScale"]
+- !private ["PSs9Equatable", "yScale"]
+- !private ["PSs9Equatable", "zRotation"]
+- !private ["PSs23FloatLiteralConvertible", "init"]
+- !private ["PSs17FloatingPointType", "init"]
+- !private ["PSs16ForwardIndexType", "Distance"]
+- !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
+- !private ["PSs16ForwardIndexType", "random"]
+- !private ["PSs8Hashable", "CGFloat"]
+- !private ["PSs8Hashable", "CGPoint"]
+- !private ["PSs8Hashable", "Distance"]
+- !private ["PSs8Hashable", "Int"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "SKAction"]
+- !private ["PSs8Hashable", "SKColorWithRGB"]
+- !private ["PSs8Hashable", "SKTCreateShakeFunction"]
+- !private ["PSs8Hashable", "SKTMoveEffect"]
+- !private ["PSs8Hashable", "SKTRotateEffect"]
+- !private ["PSs8Hashable", "SKTScaleEffect"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "actionWithEffect"]
+- !private ["PSs8Hashable", "backgroundColor"]
+- ["PSs8Hashable", "colorGlitchWithScene"]
+- !private ["PSs8Hashable", "customActionWithDuration"]
+- !private ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "position"]
+- !private ["PSs8Hashable", "random"]
+- ["PSs8Hashable", "screenRotateWithNode"]
+- ["PSs8Hashable", "screenShakeWithNode"]
+- ["PSs8Hashable", "screenZoomWithNode"]
+- !private ["PSs8Hashable", "xScale"]
+- !private ["PSs8Hashable", "yScale"]
+- !private ["PSs8Hashable", "zRotation"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "random"]
+- !private ["PSs21IntegerArithmeticType", "Distance"]
+- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs21IntegerArithmeticType", "random"]
+- !private ["PSs25IntegerLiteralConvertible", "Distance"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "init"]
+- !private ["PSs25IntegerLiteralConvertible", "random"]
+- !private ["PSs11IntegerType", "Distance"]
+- !private ["PSs11IntegerType", "IntegerLiteralType"]
+- !private ["PSs11IntegerType", "random"]
+- !private ["PSs14MirrorPathType", "Distance"]
+- !private ["PSs14MirrorPathType", "IntegerLiteralType"]
+- !private ["PSs14MirrorPathType", "random"]
+- !private ["PSo8NSCoding", "CGFloat"]
+- !private ["PSo8NSCoding", "CGPoint"]
+- !private ["PSo8NSCoding", "Int"]
+- !private ["PSo8NSCoding", "SKAction"]
+- !private ["PSo8NSCoding", "SKColorWithRGB"]
+- !private ["PSo8NSCoding", "SKTCreateShakeFunction"]
+- !private ["PSo8NSCoding", "SKTMoveEffect"]
+- !private ["PSo8NSCoding", "SKTRotateEffect"]
+- !private ["PSo8NSCoding", "SKTScaleEffect"]
+- !private ["PSo8NSCoding", "actionWithEffect"]
+- !private ["PSo8NSCoding", "backgroundColor"]
+- !private ["PSo8NSCoding", "customActionWithDuration"]
+- !private ["PSo8NSCoding", "position"]
+- !private ["PSo8NSCoding", "xScale"]
+- !private ["PSo8NSCoding", "yScale"]
+- !private ["PSo8NSCoding", "zRotation"]
+- !private ["PSo9NSCopying", "CGFloat"]
+- !private ["PSo9NSCopying", "CGPoint"]
+- !private ["PSo9NSCopying", "Int"]
+- !private ["PSo9NSCopying", "SKAction"]
+- !private ["PSo9NSCopying", "SKColorWithRGB"]
+- !private ["PSo9NSCopying", "SKTCreateShakeFunction"]
+- !private ["PSo9NSCopying", "SKTMoveEffect"]
+- !private ["PSo9NSCopying", "SKTRotateEffect"]
+- !private ["PSo9NSCopying", "SKTScaleEffect"]
+- !private ["PSo9NSCopying", "actionWithEffect"]
+- !private ["PSo9NSCopying", "backgroundColor"]
+- !private ["PSo9NSCopying", "customActionWithDuration"]
+- !private ["PSo9NSCopying", "position"]
+- !private ["PSo9NSCopying", "xScale"]
+- !private ["PSo9NSCopying", "yScale"]
+- !private ["PSo9NSCopying", "zRotation"]
+- ["CSo8NSObject", "CGFloat"]
+- ["CSo8NSObject", "CGPoint"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "NSTimeInterval"]
+- ["CSo8NSObject", "SKAction"]
+- ["CSo8NSObject", "SKColor"]
+- !private ["CSo8NSObject", "SKColorWithRGB"]
+- ["CSo8NSObject", "SKNode"]
+- ["CSo8NSObject", "SKScene"]
+- !private ["CSo8NSObject", "SKTCreateShakeFunction"]
+- !private ["CSo8NSObject", "SKTMoveEffect"]
+- !private ["CSo8NSObject", "SKTRotateEffect"]
+- !private ["CSo8NSObject", "SKTScaleEffect"]
+- !private ["CSo8NSObject", "actionWithEffect"]
+- !private ["CSo8NSObject", "backgroundColor"]
+- ["CSo8NSObject", "colorGlitchWithScene"]
+- !private ["CSo8NSObject", "customActionWithDuration"]
+- !private ["CSo8NSObject", "position"]
+- ["CSo8NSObject", "screenRotateWithNode"]
+- ["CSo8NSObject", "screenShakeWithNode"]
+- ["CSo8NSObject", "screenZoomWithNode"]
+- !private ["CSo8NSObject", "xScale"]
+- !private ["CSo8NSObject", "yScale"]
+- !private ["CSo8NSObject", "zRotation"]
+- !private ["PSo16NSObjectProtocol", "CGFloat"]
+- !private ["PSo16NSObjectProtocol", "CGPoint"]
+- !private ["PSo16NSObjectProtocol", "Int"]
+- !private ["PSo16NSObjectProtocol", "SKAction"]
+- !private ["PSo16NSObjectProtocol", "SKColorWithRGB"]
+- !private ["PSo16NSObjectProtocol", "SKTCreateShakeFunction"]
+- !private ["PSo16NSObjectProtocol", "SKTMoveEffect"]
+- !private ["PSo16NSObjectProtocol", "SKTRotateEffect"]
+- !private ["PSo16NSObjectProtocol", "SKTScaleEffect"]
+- !private ["PSo16NSObjectProtocol", "actionWithEffect"]
+- !private ["PSo16NSObjectProtocol", "backgroundColor"]
+- ["PSo16NSObjectProtocol", "colorGlitchWithScene"]
+- !private ["PSo16NSObjectProtocol", "customActionWithDuration"]
+- !private ["PSo16NSObjectProtocol", "position"]
+- ["PSo16NSObjectProtocol", "screenRotateWithNode"]
+- ["PSo16NSObjectProtocol", "screenShakeWithNode"]
+- ["PSo16NSObjectProtocol", "screenZoomWithNode"]
+- !private ["PSo16NSObjectProtocol", "xScale"]
+- !private ["PSo16NSObjectProtocol", "yScale"]
+- !private ["PSo16NSObjectProtocol", "zRotation"]
+- !private ["PSs21RandomAccessIndexType", "Distance"]
+- !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["PSs21RandomAccessIndexType", "random"]
+- ["CSo8SKAction", "CGFloat"]
+- ["CSo8SKAction", "CGPoint"]
+- ["CSo8SKAction", "Int"]
+- ["CSo8SKAction", "NSTimeInterval"]
+- ["CSo8SKAction", "SKAction"]
+- ["CSo8SKAction", "SKColor"]
+- !private ["CSo8SKAction", "SKColorWithRGB"]
+- ["CSo8SKAction", "SKNode"]
+- ["CSo8SKAction", "SKScene"]
+- !private ["CSo8SKAction", "SKTCreateShakeFunction"]
+- !private ["CSo8SKAction", "SKTMoveEffect"]
+- !private ["CSo8SKAction", "SKTRotateEffect"]
+- !private ["CSo8SKAction", "SKTScaleEffect"]
+- !private ["CSo8SKAction", "actionWithEffect"]
+- ["CSo8SKAction", "colorGlitchWithScene"]
+- !private ["CSo8SKAction", "customActionWithDuration"]
+- ["CSo8SKAction", "screenRotateWithNode"]
+- ["CSo8SKAction", "screenShakeWithNode"]
+- ["CSo8SKAction", "screenZoomWithNode"]
+- !private ["CSo12SKEffectNode", "backgroundColor"]
+- !private ["CSo6SKNode", "backgroundColor"]
+- !private ["CSo6SKNode", "position"]
+- !private ["CSo6SKNode", "xScale"]
+- !private ["CSo6SKNode", "yScale"]
+- !private ["CSo6SKNode", "zRotation"]
+- !private ["CSo7SKScene", "backgroundColor"]
+- !private ["C10FlappyBird9SKTEffect", "timingFunction"]
+- !private ["C10FlappyBird13SKTMoveEffect", "init"]
+- !private ["C10FlappyBird13SKTMoveEffect", "timingFunction"]
+- !private ["C10FlappyBird15SKTRotateEffect", "init"]
+- !private ["C10FlappyBird15SKTRotateEffect", "timingFunction"]
+- !private ["C10FlappyBird14SKTScaleEffect", "init"]
+- !private ["C10FlappyBird14SKTScaleEffect", "timingFunction"]
+- !private ["PSs17SignedIntegerType", "Distance"]
+- !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs17SignedIntegerType", "random"]
+- !private ["PSs16SignedNumberType", "Distance"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "init"]
+- !private ["PSs16SignedNumberType", "random"]
+- !private ["PSs10Strideable", "Distance"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["PSs10Strideable", "init"]
+- !private ["PSs10Strideable", "random"]
+- !private ["CSo11UIResponder", "backgroundColor"]
+- !private ["CSo11UIResponder", "position"]
+- !private ["CSo11UIResponder", "xScale"]
+- !private ["CSo11UIResponder", "yScale"]
+- !private ["CSo11UIResponder", "zRotation"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "random"]
+- !private ["PSs19_CVarArgAlignedType", "init"]
+- !private ["PSs22_CVarArgPassedAsDouble", "init"]
+- !private ["PSs14_Incrementable", "Distance"]
+- !private ["PSs14_Incrementable", "IntegerLiteralType"]
+- !private ["PSs14_Incrementable", "random"]
+- !private ["PSs22_IntegerArithmeticType", "Distance"]
+- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs22_IntegerArithmeticType", "random"]
+- !private ["PSs12_IntegerType", "Distance"]
+- !private ["PSs12_IntegerType", "IntegerLiteralType"]
+- !private ["PSs12_IntegerType", "random"]
+- !private ["PSs21_ObjectiveCBridgeable", "Distance"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "random"]
+- !private ["PSs22_RandomAccessAmbiguity", "Distance"]
+- !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["PSs22_RandomAccessAmbiguity", "random"]
+- !private ["PSs12_Reflectable", "Distance"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "random"]
+- !private ["PSs18_SignedIntegerType", "Distance"]
+- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs18_SignedIntegerType", "random"]
+- !private ["PSs11_Strideable", "Distance"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "init"]
+- !private ["PSs11_Strideable", "random"]
+depends-nominal:
+- !private "PSs16AbsoluteValuable"
+- "PSs9AnyObject"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- !private "V12CoreGraphics7CGFloat"
+- !private "VSC7CGPoint"
+- "PSs11CVarArgType"
+- !private "PSs10Comparable"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- !private "PSs23FloatLiteralConvertible"
+- !private "PSs17FloatingPointType"
+- !private "PSs16ForwardIndexType"
+- "PSs8Hashable"
+- !private "Si"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- !private "PSs14MirrorPathType"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSs21RandomAccessIndexType"
+- "CSo8SKAction"
+- !private "CSo12SKEffectNode"
+- !private "CSo6SKNode"
+- !private "CSo7SKScene"
+- !private "C10FlappyBird9SKTEffect"
+- !private "C10FlappyBird13SKTMoveEffect"
+- !private "C10FlappyBird15SKTRotateEffect"
+- !private "C10FlappyBird14SKTScaleEffect"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "PSs10Strideable"
+- !private "CSo11UIResponder"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs19_CVarArgAlignedType"
+- !private "PSs22_CVarArgPassedAsDouble"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs22_RandomAccessAmbiguity"
+- !private "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+interface-hash: "6c1127f6f51e9681f3f3e6dc7079b309"

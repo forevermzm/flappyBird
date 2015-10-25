@@ -1,0 +1,260 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "\u03C0"
+- "shortestAngleBetween"
+provides-nominal:
+provides-member:
+- ["V12CoreGraphics7CGFloat", ""]
+- ["V12CoreGraphics7CGFloat", "degreesToRadians"]
+- ["V12CoreGraphics7CGFloat", "radiansToDegrees"]
+- ["V12CoreGraphics7CGFloat", "clamped"]
+- ["V12CoreGraphics7CGFloat", "clamp"]
+- ["V12CoreGraphics7CGFloat", "sign"]
+- ["V12CoreGraphics7CGFloat", "random"]
+- ["V12CoreGraphics7CGFloat", "random"]
+- ["V12CoreGraphics7CGFloat", "randomSign"]
+provides-dynamic-lookup:
+depends-top-level:
+- "shortestAngleBetween"
+- "\u03C0"
+- !private "arc4random_uniform"
+- "CGFloat"
+- !private "=="
+- !private "IntegerLiteralType"
+- "M_PI"
+- !private ">"
+- !private "StringLiteralType"
+- !private "Float"
+- !private ">="
+- !private "arc4random"
+- !private "-"
+- !private "/"
+- !private "%"
+- !private "<="
+- !private "assert"
+- !private "*"
+- !private "<"
+- !private "FloatLiteralType"
+- !private "+"
+depends-member:
+- !private ["PSs16AbsoluteValuable", "CGFloat"]
+- !private ["PSs16AbsoluteValuable", "Float"]
+- !private ["PSs16AbsoluteValuable", "arc4random"]
+- !private ["PSs16AbsoluteValuable", "arc4random_uniform"]
+- !private ["PSs16AbsoluteValuable", "assert"]
+- !private ["PSs16AbsoluteValuable", "clamped"]
+- ["PSs16AbsoluteValuable", "init"]
+- !private ["PSs16AbsoluteValuable", "random"]
+- !private ["PSs16AbsoluteValuable", "\u03C0"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- ["V12CoreGraphics7CGFloat", "CGFloat"]
+- !private ["V12CoreGraphics7CGFloat", "Float"]
+- !private ["V12CoreGraphics7CGFloat", "arc4random"]
+- !private ["V12CoreGraphics7CGFloat", "arc4random_uniform"]
+- !private ["V12CoreGraphics7CGFloat", "assert"]
+- ["V12CoreGraphics7CGFloat", "clamp"]
+- ["V12CoreGraphics7CGFloat", "clamped"]
+- ["V12CoreGraphics7CGFloat", "degreesToRadians"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- ["V12CoreGraphics7CGFloat", "init"]
+- ["V12CoreGraphics7CGFloat", "radiansToDegrees"]
+- ["V12CoreGraphics7CGFloat", "random"]
+- ["V12CoreGraphics7CGFloat", "randomSign"]
+- ["V12CoreGraphics7CGFloat", "sign"]
+- !private ["V12CoreGraphics7CGFloat", "\u03C0"]
+- !private ["PSs11CVarArgType", "CGFloat"]
+- !private ["PSs11CVarArgType", "Float"]
+- !private ["PSs11CVarArgType", "arc4random"]
+- !private ["PSs11CVarArgType", "arc4random_uniform"]
+- !private ["PSs11CVarArgType", "assert"]
+- !private ["PSs11CVarArgType", "clamped"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "random"]
+- !private ["PSs11CVarArgType", "\u03C0"]
+- !private ["PSs10Comparable", "CGFloat"]
+- !private ["PSs10Comparable", "Float"]
+- !private ["PSs10Comparable", "arc4random"]
+- !private ["PSs10Comparable", "arc4random_uniform"]
+- !private ["PSs10Comparable", "assert"]
+- !private ["PSs10Comparable", "clamped"]
+- ["PSs10Comparable", "init"]
+- !private ["PSs10Comparable", "random"]
+- !private ["PSs10Comparable", "\u03C0"]
+- !private ["PSs23CustomStringConvertible", "CGFloat"]
+- !private ["PSs23CustomStringConvertible", "Float"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "arc4random"]
+- !private ["PSs23CustomStringConvertible", "arc4random_uniform"]
+- !private ["PSs23CustomStringConvertible", "assert"]
+- !private ["PSs23CustomStringConvertible", "clamped"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "random"]
+- !private ["PSs23CustomStringConvertible", "\u03C0"]
+- !private ["Sd", "deinit"]
+- !private ["PSs9Equatable", "CGFloat"]
+- !private ["PSs9Equatable", "Float"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "arc4random"]
+- !private ["PSs9Equatable", "arc4random_uniform"]
+- !private ["PSs9Equatable", "assert"]
+- !private ["PSs9Equatable", "clamped"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "random"]
+- !private ["PSs9Equatable", "\u03C0"]
+- !private ["Sf", "init"]
+- !private ["PSs23FloatLiteralConvertible", "CGFloat"]
+- !private ["PSs23FloatLiteralConvertible", "Float"]
+- !private ["PSs23FloatLiteralConvertible", "arc4random"]
+- !private ["PSs23FloatLiteralConvertible", "arc4random_uniform"]
+- !private ["PSs23FloatLiteralConvertible", "assert"]
+- !private ["PSs23FloatLiteralConvertible", "clamped"]
+- ["PSs23FloatLiteralConvertible", "init"]
+- !private ["PSs23FloatLiteralConvertible", "random"]
+- !private ["PSs23FloatLiteralConvertible", "\u03C0"]
+- !private ["PSs17FloatingPointType", "CGFloat"]
+- !private ["PSs17FloatingPointType", "Float"]
+- !private ["PSs17FloatingPointType", "arc4random"]
+- !private ["PSs17FloatingPointType", "arc4random_uniform"]
+- !private ["PSs17FloatingPointType", "assert"]
+- !private ["PSs17FloatingPointType", "clamped"]
+- ["PSs17FloatingPointType", "init"]
+- !private ["PSs17FloatingPointType", "random"]
+- !private ["PSs17FloatingPointType", "\u03C0"]
+- !private ["PSs8Hashable", "CGFloat"]
+- !private ["PSs8Hashable", "Float"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "arc4random"]
+- !private ["PSs8Hashable", "arc4random_uniform"]
+- !private ["PSs8Hashable", "assert"]
+- !private ["PSs8Hashable", "clamped"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "random"]
+- !private ["PSs8Hashable", "\u03C0"]
+- !private ["PSs25IntegerLiteralConvertible", "CGFloat"]
+- !private ["PSs25IntegerLiteralConvertible", "Float"]
+- !private ["PSs25IntegerLiteralConvertible", "arc4random"]
+- !private ["PSs25IntegerLiteralConvertible", "arc4random_uniform"]
+- !private ["PSs25IntegerLiteralConvertible", "assert"]
+- !private ["PSs25IntegerLiteralConvertible", "clamped"]
+- ["PSs25IntegerLiteralConvertible", "init"]
+- !private ["PSs25IntegerLiteralConvertible", "random"]
+- !private ["PSs25IntegerLiteralConvertible", "\u03C0"]
+- !private ["CSo8NSNumber", "deinit"]
+- !private ["Sq", "deinit"]
+- !private ["PSs16SignedNumberType", "CGFloat"]
+- !private ["PSs16SignedNumberType", "Float"]
+- !private ["PSs16SignedNumberType", "arc4random"]
+- !private ["PSs16SignedNumberType", "arc4random_uniform"]
+- !private ["PSs16SignedNumberType", "assert"]
+- !private ["PSs16SignedNumberType", "clamped"]
+- ["PSs16SignedNumberType", "init"]
+- !private ["PSs16SignedNumberType", "random"]
+- !private ["PSs16SignedNumberType", "\u03C0"]
+- !private ["VSs12StaticString", "deinit"]
+- !private ["PSs10Strideable", "CGFloat"]
+- !private ["PSs10Strideable", "Float"]
+- !private ["PSs10Strideable", "arc4random"]
+- !private ["PSs10Strideable", "arc4random_uniform"]
+- !private ["PSs10Strideable", "assert"]
+- !private ["PSs10Strideable", "clamped"]
+- ["PSs10Strideable", "init"]
+- !private ["PSs10Strideable", "random"]
+- !private ["PSs10Strideable", "\u03C0"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs31_BuiltinFloatLiteralConvertible", "init"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "init"]
+- !private ["PSs19_CVarArgAlignedType", "CGFloat"]
+- !private ["PSs19_CVarArgAlignedType", "Float"]
+- !private ["PSs19_CVarArgAlignedType", "arc4random"]
+- !private ["PSs19_CVarArgAlignedType", "arc4random_uniform"]
+- !private ["PSs19_CVarArgAlignedType", "assert"]
+- !private ["PSs19_CVarArgAlignedType", "clamped"]
+- ["PSs19_CVarArgAlignedType", "init"]
+- !private ["PSs19_CVarArgAlignedType", "random"]
+- !private ["PSs19_CVarArgAlignedType", "\u03C0"]
+- !private ["PSs22_CVarArgPassedAsDouble", "CGFloat"]
+- !private ["PSs22_CVarArgPassedAsDouble", "Float"]
+- !private ["PSs22_CVarArgPassedAsDouble", "arc4random"]
+- !private ["PSs22_CVarArgPassedAsDouble", "arc4random_uniform"]
+- !private ["PSs22_CVarArgPassedAsDouble", "assert"]
+- !private ["PSs22_CVarArgPassedAsDouble", "clamped"]
+- ["PSs22_CVarArgPassedAsDouble", "init"]
+- !private ["PSs22_CVarArgPassedAsDouble", "random"]
+- !private ["PSs22_CVarArgPassedAsDouble", "\u03C0"]
+- !private ["PSs21_ObjectiveCBridgeable", "CGFloat"]
+- !private ["PSs21_ObjectiveCBridgeable", "Float"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "arc4random"]
+- !private ["PSs21_ObjectiveCBridgeable", "arc4random_uniform"]
+- !private ["PSs21_ObjectiveCBridgeable", "assert"]
+- !private ["PSs21_ObjectiveCBridgeable", "clamped"]
+- ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "random"]
+- !private ["PSs21_ObjectiveCBridgeable", "\u03C0"]
+- !private ["PSs12_Reflectable", "CGFloat"]
+- !private ["PSs12_Reflectable", "Float"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "arc4random"]
+- !private ["PSs12_Reflectable", "arc4random_uniform"]
+- !private ["PSs12_Reflectable", "assert"]
+- !private ["PSs12_Reflectable", "clamped"]
+- ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "random"]
+- !private ["PSs12_Reflectable", "\u03C0"]
+- !private ["PSs11_Strideable", "CGFloat"]
+- !private ["PSs11_Strideable", "Float"]
+- !private ["PSs11_Strideable", "arc4random"]
+- !private ["PSs11_Strideable", "arc4random_uniform"]
+- !private ["PSs11_Strideable", "assert"]
+- !private ["PSs11_Strideable", "clamped"]
+- ["PSs11_Strideable", "init"]
+- !private ["PSs11_Strideable", "random"]
+- !private ["PSs11_Strideable", "\u03C0"]
+depends-nominal:
+- "PSs16AbsoluteValuable"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "V12CoreGraphics7CGFloat"
+- "PSs11CVarArgType"
+- "PSs10Comparable"
+- "PSs23CustomStringConvertible"
+- !private "Sd"
+- "PSs9Equatable"
+- !private "Sf"
+- "PSs23FloatLiteralConvertible"
+- "PSs17FloatingPointType"
+- "PSs8Hashable"
+- "PSs25IntegerLiteralConvertible"
+- !private "CSo8NSNumber"
+- !private "Sq"
+- "PSs16SignedNumberType"
+- !private "VSs12StaticString"
+- "PSs10Strideable"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs31_BuiltinFloatLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- "PSs19_CVarArgAlignedType"
+- "PSs22_CVarArgPassedAsDouble"
+- "PSs21_ObjectiveCBridgeable"
+- "PSs12_Reflectable"
+- "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+interface-hash: "7a50d38f3573c4a63c3070bc52205afc"
