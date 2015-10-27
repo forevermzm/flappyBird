@@ -31,7 +31,7 @@ class GameViewController: UIViewController {
                 // 4.设置一些调试参数
                 skView.showsFPS = true          // 显示帧数
                 skView.showsNodeCount = true    // 显示当前场景下节点个数
-                skView.showsPhysics = true      // 显示物理体
+//                skView.showsPhysics = true      // 显示物理体
                 skView.ignoresSiblingOrder = true   // 忽略节点添加顺序
                 
                 // 5.设置场景呈现模式
