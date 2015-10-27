@@ -6,21 +6,21 @@ provides-nominal:
 provides-member:
 - ["C10FlappyBird18GameViewController", ""]
 provides-dynamic-lookup:
-- "prefersStatusBarHidden"
-- "viewDidLoad"
-- "viewWillLayoutSubviews"
 - "didReceiveMemoryWarning"
+- "viewDidLoad"
+- "prefersStatusBarHidden"
+- "viewWillLayoutSubviews"
 depends-top-level:
-- !private "GameScene"
-- !private "*"
 - !private "BooleanLiteralType"
-- "GameViewController"
 - !private "CGSizeMake"
-- !private "/"
-- "UIViewController"
-- !private "=="
+- !private "GameScene"
+- "GameViewController"
 - !private "SKView"
+- !private "/"
+- !private "*"
+- "UIViewController"
 - "Bool"
+- !private "=="
 depends-member:
 - !private ["PSs9AnyObject", "CGSizeMake"]
 - !private ["PSs9AnyObject", "GameScene"]
@@ -35,7 +35,6 @@ depends-member:
 - !private ["PSs9AnyObject", "scene"]
 - !private ["PSs9AnyObject", "showsFPS"]
 - !private ["PSs9AnyObject", "showsNodeCount"]
-- !private ["PSs9AnyObject", "showsPhysics"]
 - !private ["PSs9AnyObject", "view"]
 - ["PSs9AnyObject", "viewDidLoad"]
 - ["PSs9AnyObject", "viewWillLayoutSubviews"]
@@ -60,7 +59,6 @@ depends-member:
 - !private ["PSs11CVarArgType", "scene"]
 - !private ["PSs11CVarArgType", "showsFPS"]
 - !private ["PSs11CVarArgType", "showsNodeCount"]
-- !private ["PSs11CVarArgType", "showsPhysics"]
 - !private ["PSs11CVarArgType", "view"]
 - ["PSs11CVarArgType", "viewDidLoad"]
 - ["PSs11CVarArgType", "viewWillLayoutSubviews"]
@@ -80,7 +78,6 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "scene"]
 - !private ["PSs23CustomStringConvertible", "showsFPS"]
 - !private ["PSs23CustomStringConvertible", "showsNodeCount"]
-- !private ["PSs23CustomStringConvertible", "showsPhysics"]
 - !private ["PSs23CustomStringConvertible", "view"]
 - ["PSs23CustomStringConvertible", "viewDidLoad"]
 - ["PSs23CustomStringConvertible", "viewWillLayoutSubviews"]
@@ -101,7 +98,6 @@ depends-member:
 - !private ["PSs9Equatable", "scene"]
 - !private ["PSs9Equatable", "showsFPS"]
 - !private ["PSs9Equatable", "showsNodeCount"]
-- !private ["PSs9Equatable", "showsPhysics"]
 - !private ["PSs9Equatable", "size"]
 - !private ["PSs9Equatable", "view"]
 - ["PSs9Equatable", "viewDidLoad"]
@@ -136,7 +132,6 @@ depends-member:
 - !private ["PSs8Hashable", "scene"]
 - !private ["PSs8Hashable", "showsFPS"]
 - !private ["PSs8Hashable", "showsNodeCount"]
-- !private ["PSs8Hashable", "showsPhysics"]
 - !private ["PSs8Hashable", "view"]
 - ["PSs8Hashable", "viewDidLoad"]
 - ["PSs8Hashable", "viewWillLayoutSubviews"]
@@ -155,7 +150,6 @@ depends-member:
 - !private ["PSo8NSCoding", "scene"]
 - !private ["PSo8NSCoding", "showsFPS"]
 - !private ["PSo8NSCoding", "showsNodeCount"]
-- !private ["PSo8NSCoding", "showsPhysics"]
 - !private ["PSo8NSCoding", "view"]
 - ["PSo8NSCoding", "viewDidLoad"]
 - ["PSo8NSCoding", "viewWillLayoutSubviews"]
@@ -186,7 +180,6 @@ depends-member:
 - !private ["CSo8NSObject", "scene"]
 - !private ["CSo8NSObject", "showsFPS"]
 - !private ["CSo8NSObject", "showsNodeCount"]
-- !private ["CSo8NSObject", "showsPhysics"]
 - !private ["CSo8NSObject", "view"]
 - ["CSo8NSObject", "viewDidLoad"]
 - ["CSo8NSObject", "viewWillLayoutSubviews"]
@@ -203,7 +196,6 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "scene"]
 - !private ["PSo16NSObjectProtocol", "showsFPS"]
 - !private ["PSo16NSObjectProtocol", "showsNodeCount"]
-- !private ["PSo16NSObjectProtocol", "showsPhysics"]
 - !private ["PSo16NSObjectProtocol", "view"]
 - ["PSo16NSObjectProtocol", "viewDidLoad"]
 - ["PSo16NSObjectProtocol", "viewWillLayoutSubviews"]
@@ -226,7 +218,6 @@ depends-member:
 - !private ["CSo6SKView", "scene"]
 - !private ["CSo6SKView", "showsFPS"]
 - !private ["CSo6SKView", "showsNodeCount"]
-- !private ["CSo6SKView", "showsPhysics"]
 - !private ["PSo29UIAccessibilityIdentification", "bounds"]
 - !private ["PSo29UIAccessibilityIdentification", "frameInterval"]
 - !private ["PSo29UIAccessibilityIdentification", "ignoresSiblingOrder"]
@@ -234,7 +225,6 @@ depends-member:
 - !private ["PSo29UIAccessibilityIdentification", "scene"]
 - !private ["PSo29UIAccessibilityIdentification", "showsFPS"]
 - !private ["PSo29UIAccessibilityIdentification", "showsNodeCount"]
-- !private ["PSo29UIAccessibilityIdentification", "showsPhysics"]
 - !private ["PSo12UIAppearance", "bounds"]
 - !private ["PSo12UIAppearance", "frameInterval"]
 - !private ["PSo12UIAppearance", "ignoresSiblingOrder"]
@@ -242,7 +232,6 @@ depends-member:
 - !private ["PSo12UIAppearance", "scene"]
 - !private ["PSo12UIAppearance", "showsFPS"]
 - !private ["PSo12UIAppearance", "showsNodeCount"]
-- !private ["PSo12UIAppearance", "showsPhysics"]
 - !private ["PSo21UIAppearanceContainer", "CGSizeMake"]
 - !private ["PSo21UIAppearanceContainer", "GameScene"]
 - !private ["PSo21UIAppearanceContainer", "bounds"]
@@ -255,7 +244,6 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "scene"]
 - !private ["PSo21UIAppearanceContainer", "showsFPS"]
 - !private ["PSo21UIAppearanceContainer", "showsNodeCount"]
-- !private ["PSo21UIAppearanceContainer", "showsPhysics"]
 - !private ["PSo21UIAppearanceContainer", "view"]
 - ["PSo21UIAppearanceContainer", "viewDidLoad"]
 - ["PSo21UIAppearanceContainer", "viewWillLayoutSubviews"]
@@ -276,7 +264,6 @@ depends-member:
 - !private ["PSo17UICoordinateSpace", "scene"]
 - !private ["PSo17UICoordinateSpace", "showsFPS"]
 - !private ["PSo17UICoordinateSpace", "showsNodeCount"]
-- !private ["PSo17UICoordinateSpace", "showsPhysics"]
 - !private ["PSo13UIDynamicItem", "bounds"]
 - !private ["PSo13UIDynamicItem", "frameInterval"]
 - !private ["PSo13UIDynamicItem", "ignoresSiblingOrder"]
@@ -284,7 +271,6 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "scene"]
 - !private ["PSo13UIDynamicItem", "showsFPS"]
 - !private ["PSo13UIDynamicItem", "showsNodeCount"]
-- !private ["PSo13UIDynamicItem", "showsPhysics"]
 - !private ["PSo18UIFocusEnvironment", "CGSizeMake"]
 - !private ["PSo18UIFocusEnvironment", "GameScene"]
 - !private ["PSo18UIFocusEnvironment", "bounds"]
@@ -297,7 +283,6 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "scene"]
 - !private ["PSo18UIFocusEnvironment", "showsFPS"]
 - !private ["PSo18UIFocusEnvironment", "showsNodeCount"]
-- !private ["PSo18UIFocusEnvironment", "showsPhysics"]
 - !private ["PSo18UIFocusEnvironment", "view"]
 - ["PSo18UIFocusEnvironment", "viewDidLoad"]
 - ["PSo18UIFocusEnvironment", "viewWillLayoutSubviews"]
@@ -317,7 +302,6 @@ depends-member:
 - !private ["CSo11UIResponder", "scene"]
 - !private ["CSo11UIResponder", "showsFPS"]
 - !private ["CSo11UIResponder", "showsNodeCount"]
-- !private ["CSo11UIResponder", "showsPhysics"]
 - !private ["CSo11UIResponder", "view"]
 - ["CSo11UIResponder", "viewDidLoad"]
 - ["CSo11UIResponder", "viewWillLayoutSubviews"]
@@ -342,7 +326,6 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "scene"]
 - !private ["PSo18UITraitEnvironment", "showsFPS"]
 - !private ["PSo18UITraitEnvironment", "showsNodeCount"]
-- !private ["PSo18UITraitEnvironment", "showsPhysics"]
 - !private ["PSo18UITraitEnvironment", "view"]
 - ["PSo18UITraitEnvironment", "viewDidLoad"]
 - ["PSo18UITraitEnvironment", "viewWillLayoutSubviews"]
@@ -355,7 +338,6 @@ depends-member:
 - !private ["CSo6UIView", "scene"]
 - !private ["CSo6UIView", "showsFPS"]
 - !private ["CSo6UIView", "showsNodeCount"]
-- !private ["CSo6UIView", "showsPhysics"]
 - ["CSo16UIViewController", "Bool"]
 - !private ["CSo16UIViewController", "CGSizeMake"]
 - !private ["CSo16UIViewController", "GameScene"]
@@ -380,7 +362,6 @@ depends-member:
 - !private ["PSs12_Reflectable", "scene"]
 - !private ["PSs12_Reflectable", "showsFPS"]
 - !private ["PSs12_Reflectable", "showsNodeCount"]
-- !private ["PSs12_Reflectable", "showsPhysics"]
 - !private ["PSs12_Reflectable", "size"]
 - !private ["PSs12_Reflectable", "width"]
 depends-nominal:

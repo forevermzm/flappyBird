@@ -124,8 +124,12 @@ SWIFT_CLASS("_TtC10FlappyBird9GameScene")
 @interface GameScene : SKScene
 @property (nonatomic, readonly) CGFloat kGravity;
 @property (nonatomic, readonly) CGFloat kImpulse;
-@property (nonatomic, readonly) CGFloat FOREGROUND_SPEED;
+@property (nonatomic, readonly) CGFloat kGroundSpeed;
+@property (nonatomic, readonly) CGFloat kBottomObstacleMinFraction;
+@property (nonatomic, readonly) CGFloat kBottomObstacleMaxFraction;
+@property (nonatomic, readonly) CGFloat kGapMultiplier;
 @property (nonatomic, readonly, copy) NSString * __nonnull FOREGROUND_NAME;
+@property (nonatomic, readonly, copy) NSString * __nonnull OBSTACLE_NAME;
 @property (nonatomic, readonly, strong) SKNode * __nonnull worldNode;
 @property (nonatomic) CGFloat playableStart;
 @property (nonatomic) CGFloat playableHeight;
@@ -140,11 +144,15 @@ SWIFT_CLASS("_TtC10FlappyBird9GameScene")
 @property (nonatomic) NSTimeInterval lastUpdateTime;
 @property (nonatomic) NSTimeInterval dt;
 @property (nonatomic) CGPoint playerVelocity;
+@property (nonatomic) NSInteger lastObstaclePosition;
 - (void)didMoveToView:(SKView * __nonnull)view;
 - (void)setupBackground;
 - (void)setupForeground;
 - (void)setupPlayer;
 - (void)touchesBegan:(NSSet<UITouch *> * __nonnull)touches withEvent:(UIEvent * __nullable)event;
+- (SKSpriteNode * __nonnull)createObstacle;
+- (void)spawnObstacle;
+- (void)startSpawning;
 - (void)flapPlayer;
 - (void)update:(CFTimeInterval)currentTime;
 - (void)updatePlayer;
