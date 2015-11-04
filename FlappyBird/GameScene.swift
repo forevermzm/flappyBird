@@ -15,6 +15,15 @@ enum Layer: CGFloat {
     case Player
 }
 
+enum GameState{
+    case MainMenu
+    case Tutorial
+    case Play
+    case Falling
+    case ShowingScore
+    case GameOver
+}
+
 struct PhysicsCategory {
     static let None: UInt32 = 0
     static let Player: UInt32 =     0b1 // 1
@@ -22,7 +31,7 @@ struct PhysicsCategory {
     static let Ground: UInt32 =   0b100 // 4
 }
 
-class GameScene: SKScene {
+class GameScene: SKScene, SKPhysicsContactDelegate{
     // MARK: - 常量
     let kGravity:CGFloat = -100.0    //重力
     let kImpulse:CGFloat = 80        //上升力
@@ -52,7 +61,7 @@ class GameScene: SKScene {
     let popAction = SKAction.playSoundFileNamed("pop.wav", waitForCompletion: false)
     let coinAction = SKAction.playSoundFileNamed("coin.wav", waitForCompletion: false)
     
-    let player = SKSpriteNode(imageNamed: "snake")
+    let player = SKSpriteNode(imageNamed: "bird0")
     
     var lastUpdateTime :NSTimeInterval = 0    //记录上次更新时间
     var dt:NSTimeInterval = 0                //两次时间差值
@@ -60,8 +69,17 @@ class GameScene: SKScene {
     
     var lastObstaclePosition = 0
     
+    let sombrero = SKSpriteNode(imageNamed: "Sombrero")
+    //1
+    var hitGround = false
+    //2
+    var hitObstacle = false
+    //3
+    var gameState: GameState = .Play
+    
     override func didMoveToView(view: SKView) {
         physicsWorld.gravity = CGVector(dx: 0, dy: 0)
+        physicsWorld.contactDelegate = self
         
         addChild(worldNode)
         setupBackground()
@@ -69,6 +87,8 @@ class GameScene: SKScene {
         setupPlayer()
         
         startSpawning()
+        
+        flapPlayer()
     }
     
     func setupBackground(){
@@ -130,7 +150,33 @@ class GameScene: SKScene {
     }
     
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        flapPlayer()
+        switch gameState {
+        case .MainMenu:
+            break
+        case .Tutorial:
+            break
+        case .Play:
+            flapPlayer()
+            break
+        case .Falling:
+            break
+        case .ShowingScore:
+            switchToNewGame()
+            break
+        case .GameOver:
+            break
+        }
+    }
+    
+    func didBeginContact(contact: SKPhysicsContact) {
+        let other = contact.bodyA.categoryBitMask == PhysicsCategory.Player ? contact.bodyB : contact.bodyA
+        
+        if other.categoryBitMask == PhysicsCategory.Ground {
+            hitGround = true
+        }
+        if other.categoryBitMask == PhysicsCategory.Obstacle {
+            hitObstacle = true
+        }
     }
     
     func createObstacle()->SKSpriteNode{
@@ -162,6 +208,7 @@ class GameScene: SKScene {
     func spawnObstacle(){
         //1
         let bottomObstacle = createObstacle()    //实例化一个精灵
+        bottomObstacle.name = "BottomObstacle"
         let startX = size.width + bottomObstacle.size.width/2//x轴位置为屏幕最右侧
         //2
         let bottomObstacleMin = (playableStart - bottomObstacle.size.height/2) + playableHeight * kBottomObstacleMinFraction    //计算障碍物超出地表的最小距离
@@ -170,6 +217,7 @@ class GameScene: SKScene {
         worldNode.addChild(bottomObstacle)    //添加到世界节点中
         //3
         let topObstacle = createObstacle()    //实例化一个精灵
+        topObstacle.name = "TopObstacle"
         topObstacle.zRotation = CGFloat(180).degreesToRadians()//翻转180°
         topObstacle.position = CGPoint(x: startX, y: bottomObstacle.position.y + bottomObstacle.size.height/2 + topObstacle.size.height/2 + player.size.height * kGapMultiplier)//设置y位置 相距3.5倍的Player尺寸距离
         worldNode.addChild(topObstacle)//添加至世界节点中
@@ -199,7 +247,19 @@ class GameScene: SKScene {
         let foreverSpawn = SKAction.repeatActionForever(spawnSequence)
         //6
         let overallSequence = SKAction.sequence([firstDelay,foreverSpawn])
-        runAction(overallSequence)
+        runAction(overallSequence, withKey: "spawn")
+    }
+    
+    func stopSpawning() {
+        
+        removeActionForKey("spawn")
+        
+        worldNode.enumerateChildNodesWithName("TopObstacle", usingBlock: { node, stop in
+            node.removeAllActions()
+        })
+        worldNode.enumerateChildNodesWithName("BottomObstacle", usingBlock: { node, stop in
+            node.removeAllActions()
+        })
     }
     
     func flapPlayer(){
@@ -218,8 +278,82 @@ class GameScene: SKScene {
         lastUpdateTime = currentTime
         print("时间差值为:\(dt*1000) 毫秒")
         
-        updatePlayer()
-        updateForeground()
+        switch gameState {
+        case .MainMenu:
+            break
+        case .Tutorial:
+            break
+        case .Play:
+            updateForeground()
+            updatePlayer()
+            //1
+            checkHitObstacle()    //Play状态下检测是否碰撞了障碍物
+            //2
+            checkHitGround()    //Play状态下检测是否碰撞了地面
+            break
+        case .Falling:
+            updatePlayer()
+            //3
+            checkHitGround()    //Falling状态下检测是否掉落至地面 此时已经失败了
+            break
+        case .ShowingScore:
+            break
+        case .GameOver:
+            break
+        }
+    }
+    
+    // 与障碍物发生碰撞
+    func checkHitObstacle() {
+        if hitObstacle {
+            hitObstacle = false
+            switchToFalling()
+        }
+    }
+    // 掉落至地面
+    func checkHitGround() {
+        
+        if hitGround {
+            hitGround = false
+            playerVelocity = CGPoint.zero
+            player.zRotation = CGFloat(-90).degreesToRadians()
+            player.position = CGPoint(x: player.position.x, y: playableStart + player.size.width/2)
+            runAction(hitGroundAction)
+            switchToShowScore()
+        }
+    }
+    
+    // MARK: - Game States
+    // 由Play状态变为Falling状态
+    func switchToFalling() {
+        
+        gameState = .Falling
+        
+        runAction(SKAction.sequence([
+            whackAction,
+            SKAction.waitForDuration(0.1),
+            fallingAction
+            ]))
+        
+        player.removeAllActions()
+        stopSpawning()
+        
+    }
+    // 显示分数状态
+    func switchToShowScore() {
+        gameState = .ShowingScore
+        player.removeAllActions()
+        stopSpawning()
+    }
+    // 重新开始一次游戏
+    func switchToNewGame() {
+        
+        runAction(popAction)
+        
+        let newScene = GameScene(size: size)
+        let transition = SKTransition.fadeWithColor(SKColor.blackColor(), duration: 0.5)
+        view?.presentScene(newScene, transition: transition)
+        
     }
     
     func updatePlayer(){
